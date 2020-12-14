@@ -1,7 +1,7 @@
 # unity-msaa-pattern
 Unity project implementing an "MSAA Sample Pattern Detector"
 
-![](screenshots/screenshot.PNG)
+![screenshot](https://raw.githubusercontent.com/Wilfrid-Unity/unity-msaa-pattern/main/screenshots/screenshot.png)
 
 This project is inspired by procedures suggested in http://mynameismjp.wordpress.com/2010/07/07/msaa-sample-pattern-detector to detect current MSAA sampling pattern.
   
