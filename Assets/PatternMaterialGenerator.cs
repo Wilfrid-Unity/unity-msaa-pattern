@@ -8,8 +8,7 @@ public class PatternMaterialGenerator : MonoBehaviour
     public RenderTexture sampleRenderTexture;
     public GameObject[] quads;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         if (sampleCount > 1)
             sampleRenderTexture.bindTextureMS = true;
@@ -20,6 +19,7 @@ public class PatternMaterialGenerator : MonoBehaviour
             quads[sampleIndex].GetComponent<MeshRenderer>().material.EnableKeyword($"SAMPLE_COUNT_{sampleCount}");
             if (sampleCount > 1)
                 quads[sampleIndex].GetComponent<MeshRenderer>().material.EnableKeyword($"SAMPLE_INDEX_{sampleIndex}");
+            quads[sampleIndex].SetActive(true);
         }
     }
 }

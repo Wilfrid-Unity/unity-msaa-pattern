@@ -17,8 +17,8 @@ Shader "Unlit/PatternDetectShader"
 
             #include "UnityCG.cginc"
 
-            #pragma shader_feature_local SAMPLE_COUNT_1 SAMPLE_COUNT_2 SAMPLE_COUNT_4 SAMPLE_COUNT_8
-            #pragma shader_feature_local SAMPLE_INDEX_0 SAMPLE_INDEX_1 SAMPLE_INDEX_2 SAMPLE_INDEX_3 SAMPLE_INDEX_4 SAMPLE_INDEX_5 SAMPLE_INDEX_6 SAMPLE_INDEX_7
+            #pragma multi_compile_local SAMPLE_COUNT_1 SAMPLE_COUNT_2 SAMPLE_COUNT_4 SAMPLE_COUNT_8
+            #pragma multi_compile_local SAMPLE_INDEX_0 SAMPLE_INDEX_1 SAMPLE_INDEX_2 SAMPLE_INDEX_3 SAMPLE_INDEX_4 SAMPLE_INDEX_5 SAMPLE_INDEX_6 SAMPLE_INDEX_7
 
             #include "PatternDetectShaderInclude.cginc"
 

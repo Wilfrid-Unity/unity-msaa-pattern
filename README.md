@@ -17,9 +17,5 @@ Finally, it reads the color values of the "pattern texture" and displays a text 
 
 This is a quickly assembled project that does not do error checking and use hard-coded values.  
 According to GPU and platform, it might not work correctly!  
-  
- 
-Currently only works in Editor!  
-Standalone mode is not working!!
 
 
